@@ -292,7 +292,7 @@
     <section class="section contact" id="contact">
         <h2 class="section-title">Let's Build Together</h2>
         <div class="contact-container">
-            <form action="https://formsubmit.co/c43d32ce8d7333597fac52d5a22a6ab7" method="POST" enctype="multipart/form-data">
+           <!-- <form action="https://formsubmit.co/c43d32ce8d7333597fac52d5a22a6ab7" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <input type="text" placeholder="Your Name" required>
                 </div>
@@ -303,7 +303,14 @@
                     <textarea rows="5" placeholder="Tell us about your project..." required></textarea>
                 </div>
                 <button type="submit" class="btn" style="width: 100%;">Send Message</button>
-            </form>
+            </form>-->
+            <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="9557769a-0740-4a9a-b606-9c2d32b75337">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
         </div>
     </section>
 
